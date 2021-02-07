@@ -1,0 +1,16 @@
+body#fondo{
+background-color: burlywood;
+}
+h1#Titulo{
+    color: maroon;
+    position: relative;
+    left: 24cm;
+}
+section.cafe{
+    position: relative;
+    left: 23cm;
+}
+section.contacto{
+    position: relative;
+    left: 44cm;
+}

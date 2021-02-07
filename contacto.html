@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="con.css">
+</head>
+<body id="fondo">
+    <header>
+        <h1 id="Titulo">Contacto</h1>
+    </header>
+    <form action="mailto:10365012@ieselgrao.org" method="POST" name="Form1" enctype="text/plain" >
+        <h3>Escribe tu nombre y apellido</h3>
+            <label form="nombre">Nombre:</label> 
+            <input name="nombre" type="text">
+        <br>
+            <label form="nombre">Apellido:</label> 
+            <input name="nombre" type="text">
+        <h3>Sexo</h3>
+        <input type="radio" name="gender" value="male" checked> Hombre
+        <br>
+        <input type="radio" name="gender" value="female"> Mujer
+        <br>
+        <input type="radio" name="gender" value="other"> Otro
+        <h3>Edad</h3>
+        <label form="number">Edad:</label>
+        <input type="number" name="quantity" min="1" max="100" step="1">
+        <h3 class="1">Mensaje</h3>
+        <textarea name="message" rows="10" cols="30">
+        </textarea>
+        <h3>Fecha y hora</h3>
+        <label form="datetime-">Fecha y hora:</label>
+        <input type="datetime-local" name="bdaytime">
+        <h3>Email</h3>
+        <label form="email">Email:</label>
+        <input type="email" name="email" autocomplete="off">
+        <br>
+        <h3>Numero de Telefono</h3>
+        <label form="telefono">Numero:</label> 
+        <input name="telefono" type="text">
+        <br><br>
+        <input name="Submit" type="submit" value="Enviar">
+    </form>
+</body>
+</html>

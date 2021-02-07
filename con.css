@@ -1,0 +1,11 @@
+body#fondo{
+    background-color: burlywood;
+}
+h1#Titulo{
+    color: maroon;
+    position: relative;
+    left: 25cm;
+}
+h3{
+    color: maroon;
+}
