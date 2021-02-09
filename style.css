@@ -1,0 +1,13 @@
+body#fondo{
+background-color: burlywood;
+}
+h1#Titulo{
+    color: maroon;
+    text-align: center;
+}
+section.cafe{
+    text-align: center;
+}
+section.contacto{
+    text-align: right;
+}
