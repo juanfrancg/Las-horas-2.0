@@ -1,0 +1,10 @@
+body#fondo{
+    background-color: burlywood;
+}
+h1#Titulo{
+    color: maroon;
+    text-align: center;
+}
+section.menu{
+    color: maroon;
+}
