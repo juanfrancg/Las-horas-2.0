@@ -1,0 +1,10 @@
+body#fondo{
+    background-color: burlywood;
+}
+h1#titulo{
+    color: maroon;
+    text-align: center;
+}
+p.parrafo{
+    color: brown;
+}
